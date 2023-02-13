@@ -36,7 +36,9 @@ function App() {
       });
   }, []);
 
-  
+  if (!page) {
+    return "Loading...";
+  }
 
   return (
     <div className="App">
