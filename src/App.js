@@ -13,6 +13,7 @@ const query = `
   }
 }
 `
+
 function App() {
   const [page, setPage] = useState(null);
 
